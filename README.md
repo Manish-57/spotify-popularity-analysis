@@ -1,5 +1,7 @@
 # Spotify Trends & Popularity Analysis (230K Songs) 🎧
 
+![Dashboard Preview](Spotify_Dashboard_ss.png)
+
 This project analyzes a large Spotify dataset (~233,000 songs) to understand what factors influence song popularity. 
 The complete workflow was done using **Excel, SQL, and Power BI**, starting from raw data cleaning to building an interactive dashboard.
 
@@ -93,22 +95,9 @@ SELECT artist_name, COUNT(*) AS hit_count FROM spotifyclean WHERE popularity >= 
 
 ## Project Files 📁
 
-- **Raw Dataset**  
-
-
-- **Cleaned Dataset**  
-
-
-- **SQL Processed Data**  
-
-
-- **Power BI Dashboard (PBIX)**  
-
-
-- **Project Report (DOCX)**  
-
-
-- **Presentation (PPT)**  
-
+* **Power BI Dashboard:** [Download File (.pbix)](spotify_dashboard.pbix)
+* **SQL Analysis:** [View SQL Queries](spotify_queries.sql)
+* **Project Presentation:** [View Slides (PDF)](Spotify_Presentation.pdf)
+* **Full Project Report:** [Read Report (PDF)](Spotify_Project_Report.pdf)
 
 ---
