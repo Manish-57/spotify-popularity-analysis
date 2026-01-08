@@ -95,6 +95,7 @@ SELECT artist_name, COUNT(*) AS hit_count FROM spotifyclean WHERE popularity >= 
 
 ## Project Files 📁
 
+* **Cleaned Dataset:** [Download via Google Drive](https://docs.google.com/spreadsheets/d/1TY32Jf7WtHCEyWebft9XHQA3wj1q6pSeqbbC_NU9Zyc/edit?usp=sharing)
 * **Power BI Dashboard:** [Download File (.pbix)](spotify_dashboard.pbix)
 * **SQL Analysis:** [View SQL Queries](spotify_queries.sql)
 * **Project Presentation:** [View Slides (PDF)](Spotify_Presentation.pdf)
