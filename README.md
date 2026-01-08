@@ -43,22 +43,22 @@ SELECT COUNT(*) AS total_songs FROM spotifyclean;
 
 ### Top 20 Most Popular Songs
 ```sql
-SELECT track_name, artist_name, popularity FROM spotifyclean ORDER BY popularity DESC LIMIT 20;`
+SELECT track_name, artist_name, popularity FROM spotifyclean ORDER BY popularity DESC LIMIT 20;
 ```
 
 ### Genre-wise Average Popularity
 ```sql
-SELECT genre, AVG(popularity) AS avg_popularity FROM spotifyclean GROUP BY genre ORDER BY avg_popularity DESC;`
+SELECT genre, AVG(popularity) AS avg_popularity FROM spotifyclean GROUP BY genre ORDER BY avg_popularity DESC;
 ```
 
 ### Song Distribution by Popularity Level
 ```sql
-SELECT popularity_level, COUNT(*) AS total_songs FROM spotifyclean GROUP BY popularity_level;`
+SELECT popularity_level, COUNT(*) AS total_songs FROM spotifyclean GROUP BY popularity_level;
 ```
 
 ### Artists with the Most Hit Songs (Popularity ≥ 70)
 ```sql
-SELECT artist_name, COUNT(*) AS hit_count FROM spotifyclean WHERE popularity >= 70 GROUP BY artist_name ORDER BY hit_count DESC;`
+SELECT artist_name, COUNT(*) AS hit_count FROM spotifyclean WHERE popularity >= 70 GROUP BY artist_name ORDER BY hit_count DESC;
 ```
 
 ---
